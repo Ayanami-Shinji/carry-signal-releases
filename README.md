@@ -4,6 +4,8 @@ Carry Signal 的客户端安装包与版本说明。源代码保持私有，安�
 
 请从 [Releases](https://github.com/Ayanami-Shinji/carry-signal-releases/releases) 选择版本，并核对该版本提供的 SHA-256。
 
+当前为 [v0.1.6 预发布](https://github.com/Ayanami-Shinji/carry-signal-releases/releases/tag/v0.1.6)，用于安装观察，尚未作为正式稳定版开放。生产受控换机和强制更新保持关闭。
+
 | 设备 | 安装包 |
 | --- | --- |
 | Apple Silicon Mac（M 系列），macOS 15 或更新 | macOS arm64 ZIP |
@@ -14,7 +16,7 @@ Windows ARM、Linux 和 Universal Mac 包暂不在首发范围。各版本的实
 
 ## 安装与升级
 
-Mac 解压后将应用放入「应用程序」；Windows 运行对应安装器。首批包未使用发布者签名／公证，系统可能显示安全提示；请确认下载来源及文件校验值。
+Mac 解压后将应用放入「应用程序」；Windows 运行对应安装器，默认安装到 `%LOCALAPPDATA%\carry_signal`，不提供安装路径选择，本地数据保存在 `%APPDATA%\Carry Signal` 内。首批包未使用发布者签名／公证，系统可能显示安全提示；请确认下载来源及文件校验值。
 
 升级前先处理进行中的执行与未决事项，再正常退出应用，安装完整新包。升级保留原数据和本机凭据；升级失败时保留原文件及错误信息，勿删除数据目录重新激活。
 
